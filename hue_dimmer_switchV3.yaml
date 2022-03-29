@@ -15,11 +15,10 @@ blueprint:
   input:
     remote:
       name: Philips Hue Dimmer Switch
-      description: Pick either RWL020 (US) or RWL021 (EU)
+      description: Pick either RWL020 (US) or RWL021 (EU) > RWL022
       selector:
         device:
           integration: zha
-          manufacturer: Philips
           entity:
             domain: sensor
             device_class: battery
